@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity=""
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <!--<EditText
+        android:id="@+id/txtTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:inputType="none"
+        android:enabled="false"
+        />-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo5"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="80dp"
+        android:text="click here if donor agreed to donate blood"
+        android:background="@color/appRed"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:id="@+id/btnDonorForm"
+        android:typeface="sans"
+        />
+
+    <TextView
+        android:id="@+id/txtTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:textColorHint="@color/Black"
+        android:layout_marginLeft="3dp"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        />
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subject: blood needed"
+        android:textAllCaps="true"
+        android:layout_marginLeft="3dp"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        />
+
+   <!-- <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blood needed"
+        android:hint="Subject"
+        android:textAllCaps="true"
+        android:inputType="none"
+        android:enabled="false"
+        />-->
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="phone"
+        android:hint="enter your mobile number"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        />
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Send"
+        android:background="@drawable/home_button"
+        android:textColor="@color/White"
+        android:typeface="serif"
+        />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity"
+    android:padding="20dp"
+    android:background="@drawable/button_background">
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/logo"
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/etUserEmail"
+        android:id="@+id/etUserPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_below="@id/etUserPass"
+        android:id="@+id/btnUserLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/White"
+        android:background="@drawable/home_button"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+
+        />
+
+    <Button
+        android:layout_below="@id/btnUserLogin"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnUserForgottPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textColor="@color/White"
+        android:background="@drawable/home_button"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+
+        />
+
+
+</RelativeLayout>

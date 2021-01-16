@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorCall"
+    android:orientation="vertical"
+    android:gravity=""
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo5"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="30dp"
+        android:text="click here if donor agreed to donate blood"
+        android:background="@color/appRed"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:id="@+id/btnDonorForm"
+        android:typeface="sans"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="phone"
+            android:textSize="20dp"
+            android:textColor="@color/Black"
+
+            />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnCall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:textColor="@color/White"
+            android:background="@drawable/home_button"
+            android:typeface="serif"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

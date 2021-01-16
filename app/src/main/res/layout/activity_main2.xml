@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--   <Switch
+               android:id="@+id/switchAvailability"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="available to donate blood"
+               android:layout_marginLeft="20dp"
+               android:textOff="OFF"
+               android:textOn="ON"
+
+               />-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/logo5" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Available to Donate Blood "
+            android:textColor="@color/Black"
+            android:typeface="monospace"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/btn_need_blood"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/home_button"
+        android:padding="20dp"
+        android:text="Need Blood"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+
+    <Button
+        android:id="@+id/btnViewProfile"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home_button"
+        android:text="view profile"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnPrivacySetting"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/home_button"
+        android:text="privacy setting"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:visibility="gone"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnRequest"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/home_button"
+        android:text="requests"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:typeface="serif"
+        android:visibility="gone"
+
+        />
+
+    <!-- <Button
+         android:id="@+id/btn_donor_profile"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/btn_need_blood"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="18dp"
+         android:background="@drawable/home_button"
+         android:padding="20dp"
+         android:text="Be a Donor"
+         android:textColor="@color/White"
+         android:textSize="20dp" />-->
+
+            <Button
+                android:id="@+id/btnReport"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_need_blood"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home_button"
+                android:padding="20dp"
+                android:text="Report"
+                android:textColor="@color/White"
+                android:textSize="18sp"
+                android:typeface="serif"
+
+                />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_need_blood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home_button"
+        android:padding="20dp"
+        android:text="Sign out"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:typeface="serif"
+
+        />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
